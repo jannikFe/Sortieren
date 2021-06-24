@@ -39,6 +39,7 @@ public class BubbleSort extends BasicSort implements ISorter
                 a++;
                 canvas.hlA = a;
                 canvas.hlB = a + 1;
+                canvas.hlC = b + 1;
                 canvas.redraw();
                 canvas.delay(500);
             }
